@@ -18,7 +18,7 @@ const itemLayoutProps = {
 
 const applicantForm = (props) => (
     <Form onSubmit={props.onSubmit}>
-        <h1>Some Usefull Service</h1>
+        <h1>Some Useful Service</h1>
         
         <FormItem 
             {...itemLayoutProps}
