@@ -11,8 +11,8 @@ Ran out of time to write more tests, but i managed to set them up and write one,
 About tests - i wanted to test all actions and reducers and compare snapshots on the UI.
 
 setup:
-* git clone https://github.com/zvertovsek/cyb-feass.git <folderName>
-* cd <folderName>
+* git clone https://github.com/zvertovsek/cyb-feass.git yourFolderName
+* cd yourFolderName
 * npm install
 * npm start
 
