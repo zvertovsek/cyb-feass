@@ -22,9 +22,9 @@ const _sendingApplicationFailure = (state, action) => {
 
 const reducer = (state = initialState, action) => {
     switch(action.type){
-        case actionTypes.APPLICATION_START: return _sendingApplicationStart(state, action); break;
-        case actionTypes.APPLICATION_SUCCESS: return _sendingApplicationSuccess(state, action); break;
-        case actionTypes.APPLICATION_FAILURE: return _sendingApplicationFailure(state, action); break;
+        case actionTypes.APPLICATION_START: return _sendingApplicationStart(state, action); 
+        case actionTypes.APPLICATION_SUCCESS: return _sendingApplicationSuccess(state, action); 
+        case actionTypes.APPLICATION_FAILURE: return _sendingApplicationFailure(state, action); 
         default: return state;
     }
 };

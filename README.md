@@ -10,11 +10,13 @@ I am using:
 Ran out of time to write more tests, but i managed to set them up and write one, jeej :)
 About tests - i wanted to test all actions and reducers and compare snapshots on the UI.
 
-like always:
-npm install
-npm start
+setup:
+* git clone https://github.com/zvertovsek/cyb-feass.git <folderName>
+* cd <folderName>
+* npm install
+* npm start
 
 for test:
-npm run test
+* npm run test
 
 

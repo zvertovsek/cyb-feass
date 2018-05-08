@@ -1,9 +1,8 @@
 import React from 'react';
-import { Form, Input, Radio, Select, InputNumber, Button } from 'antd';
+import { Form, Input, Radio, Select, Button } from 'antd';
 
 const FormItem = Form.Item;
 const RadioGroup = Radio.Group;
-const Option = Select.Option;
 
 const itemLayoutProps = {
     labelCol: {
